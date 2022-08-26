@@ -31,6 +31,9 @@ void draw () {
   ellipse (300,215,30,30); //top right
   fill(151,151,151);
   ellipse (250,347,30,30);
+  
+  //tail
+  fill (244,194,194); 
   curveTightness (5);
   curve (250,350,223,371,244,406,326,402);
   
